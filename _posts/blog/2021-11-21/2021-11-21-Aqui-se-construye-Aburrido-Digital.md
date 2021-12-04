@@ -1,5 +1,6 @@
 ---
 title: "Aquí se construye Aburrido.Digital"
+date: 2021-12-04T11:11:11-05:00
 last_modified_at: 2021-12-04T11:11:11-05:00
 tags: 
   - aburrido
