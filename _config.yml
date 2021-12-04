@@ -18,12 +18,18 @@
 remote_theme: mmistakes/so-simple-theme
 
 locale: en-US
-title: "Pi--So--Simple"
-description: "A--simple--Jekyll--theme--for--words--and--pictures."
+title: "Aburrido.Digital"
+
+
+description: "Una página donde se escribe de todo y de nada"
 baseurl: "/pi--so-simple-theme"
 url: "https://mmistakes.github.io"
-logo: "/images/so-simple-site-logo.png"
-date_format: "%B %-d, %Y"
+#logo: "/images/so-simple-site-logo.png"
+#logo: '/images/shield_DAR_fondo.png' 
+#logo: '/images/AburridoDigital-200x143.jpg'
+#logo: '/images/AburridoDigital-300x215.jpg'
+logo:  "/images/AburridoDigital-1200x859.jpg"
+date_format: "%-d %B %Y" # "originally %B %-d, %Y"
 read_time: true
 words_per_minute: # 200
 mathjax:
@@ -108,21 +114,29 @@ defaults:
       share: true
 
 # Site Author
+#author:
+#  name: Michael Rose
+#  picture: /images/michael-rose-photo.jpg
+#  email:
+#  twitter: mmistakes
+#  links:
+#    - title: Twitter
+#      url: https://twitter.com/mmistakes
+#      icon: fab fa-twitter-square
+#    - title: Instagram
+#      url: https://instagram.com/mmistakes
+#      icon: fab fa-instagram
+#    - title: GitHub
+#      url: https://github.com/mmistakes
+#      icon: fab fa-github-square
+
+# Site Author
 author:
-  name: Michael Rose
-  picture: /images/michael-rose-photo.jpg
-  email:
-  twitter: mmistakes
-  links:
-    - title: Twitter
-      url: https://twitter.com/mmistakes
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/mmistakes
-      icon: fab fa-instagram
-    - title: GitHub
-      url: https://github.com/mmistakes
-      icon: fab fa-github-square
+  name: justHector, IAS
+  picture: /images/shield_DAR_fondo.png
+  # email: heliotactic@gmail.com
+  twitter: _justHector
+  github: justHector
 
 # Footer Links
 footer_links:
