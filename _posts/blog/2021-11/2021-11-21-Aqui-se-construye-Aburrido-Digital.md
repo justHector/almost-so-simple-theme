@@ -1,14 +1,13 @@
 ---
 title: "Aquí se construye Aburrido.Digital"
 date: 2021-12-04T11:11:11-05:00
+last_modified_at: 2021-12-04T11:12:13-05:00
 tags: 
   - aburrido
   - blog
-last_modified_at: 2021-12-04T11:11:11-05:00
 ---
 
 Aquí se construye **Aburrido.Digital**
-
 (a paso lento pero seguro)
 
 -----
