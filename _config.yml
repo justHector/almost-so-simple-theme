@@ -143,18 +143,18 @@ footer_links:
   - title: Twitter
     url: https://twitter.com/AburridoChan
     icon: fab fa-twitter-square
-  - title: Twitter
-    url: https://twitter.com/HAsgardiano
-    icon: fab fa-twitter-square
-  - title: Twitter
-    url: https://twitter.com/_justHector
-    icon: fab fa-twitter-square
   - title: Instagram
     url: https://instagram.com/AburridoChan
     icon: fab fa-instagram
+  - title: Twitter
+    url: https://twitter.com/HAsgardiano
+    icon: fab fa-twitter-square
   - title: GitHub
     url: https://github.com/justHector
     icon: fab fa-github-square
+  - title: Twitter
+    url: https://twitter.com/_justHector
+    icon: fab fa-twitter-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
