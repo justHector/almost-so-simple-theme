@@ -28,7 +28,7 @@ url: "https://mmistakes.github.io"
 #logo: '/images/shield_DAR_fondo.png' 
 #logo: '/images/AburridoDigital-200x143.jpg'
 #logo: '/images/AburridoDigital-300x215.jpg'
-logo:  "/images/AburridoDigital-1200x859.jpg"
+logo:  '/images/AburridoDigital-1200x859.jpg'
 date_format: "%-d %B %Y" # "originally %B %-d, %Y"
 read_time: true
 words_per_minute: # 200
