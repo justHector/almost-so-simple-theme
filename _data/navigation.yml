@@ -2,8 +2,10 @@
 
 - title: Posts
   url: /posts/
-- title: AburridoPodcast
+- title: Podcast
   url: https://open.spotify.com/show/4xdv0YQSe6WTdvtHoOAsdR
+- title: Google
+  url: https://google.com
 - title: Categorias
   url: /categories/
 - title: Etiquetas
