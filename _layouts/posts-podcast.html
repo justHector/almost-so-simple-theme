@@ -1,41 +1,29 @@
 ---
-layout: default
+layout: page
 ---
 
-<main id="main" class="main-content" aria-label="Content">
-  <article class="h-entry">
-    {% include page-image.html %}
-    <div class="page-wrapper">
-      <header class="page-header">
-        {% assign title = page.title | markdownify | strip_html %}
-        {% if page.link %}
-          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
-        {% else %}
-          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
-        {% endif %}
-      </header>
+{{ content }}
 
-      <div class="page-sidebar">
-        {% include page-author.html %}
-        {% include page-categories.html %}
-        {% include page-tags.html %}
-      </div>
+<ul class="taxonomy-index">
+  {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for year in postsInYear %}
+    <li>
+      <a href="#{{ year.name }}">
+        <strong>{{ year.name }}</strong> <span class="taxonomy-count">{{ year.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
 
-      <div class="page-content">
-        <div class="e-content">
-          {{ content }}
-        </div>
-
-        {% if page.share %}
-          {% include social-share.html %}
-        {% endif %}
-
-        {% if site.disqus.shortname %}
-          {% include disqus-comments.html %}
-        {% endif %}
-
-        {% include page-pagination.html %}
-      </div>
+{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% for year in postsByYear %}
+  <section id="{{ year.name }}" class="taxonomy-section">
+    <h2 class="taxonomy-title">{{ year.name }}</h2>
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for entry in year.items %}
+        {% include entry.html %}
+      {% endfor %}
     </div>
-  </article>
-</main>
+    <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}
