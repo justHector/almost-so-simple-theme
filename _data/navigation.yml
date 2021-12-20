@@ -4,6 +4,7 @@
   url: /posts/
 - title: Podcast
   url: https://open.spotify.com/show/4xdv0YQSe6WTdvtHoOAsdR
+  external: true
 - title: Google
   url: https://google.com
 - title: Categorias
